@@ -25,7 +25,6 @@ namespace memory
 		}
 	}
 
-	// add pe file check
 	void program_binary::memory_execute() const
 	{
 		auto dos_header = PIMAGE_DOS_HEADER(_binary->data());
